@@ -14,7 +14,7 @@ import com.example.hellohilt.ui.theme.HelloHiltTheme
 
 class MainActivity : ComponentActivity() {
 
-    private val viewModel: HelloHiltViewModel by viewModels()
+    private val viewModel: HelloHiltViewModel by viewModels { HelloHiltViewModel.Factory }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
