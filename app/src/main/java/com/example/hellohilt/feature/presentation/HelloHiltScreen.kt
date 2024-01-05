@@ -14,9 +14,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.hilt.navigation.compose.hiltViewModel
 
 @Composable
-fun HelloHiltScreen(viewModel: HelloHiltViewModel) {
+fun HelloHiltScreen(viewModel: HelloHiltViewModel = hiltViewModel()) {
 
     val state = viewModel.state.collectAsState()
 
