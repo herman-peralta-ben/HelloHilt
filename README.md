@@ -1,9 +1,11 @@
 # HelloHilt
 Example App to use Dagger Hilt.
 
-**Note: take a look on commits to see what changes on stages
+**Note: take a look on commits to see what changes on stages**
 
 This example works with Hilt version `2.48`.
+
+[Changes to use Hilt](https://github.com/herman-peralta-ben/HelloHilt/commit/47bba1edd14cfe07b36301c4f11fb5330d14c686).
 
 ### Project level build.gradle
 ```
@@ -42,7 +44,7 @@ dependencies {
 * `@HiltViewModel` and `@Inject constructor` on `ViewModel` classes.
 * `@Inject constructor` on injectable classes e.g. Repository.
 
-** See di package for Modules **
+**See di package for Modules**
 
 ### Use ViewModel on Composable
 Use `hiltViewModel()`, works only if `MyViewModel` is annotated with `@HiltViewModel` and `@Inject constructor`.
