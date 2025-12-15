@@ -3,7 +3,7 @@ Example App to use Dagger Hilt.
 
 **Note: take a look on commits to see what changes on stages**
 
-This example works with Hilt version `2.48`.
+This example works with Hilt version `2.57.2`.
 
 [Changes to use Hilt](https://github.com/herman-peralta-ben/HelloHilt/commit/47bba1edd14cfe07b36301c4f11fb5330d14c686).
 
@@ -12,7 +12,7 @@ This example works with Hilt version `2.48`.
 plugins {
     ...
     //region Dagger - Hilt
-    id("com.google.dagger.hilt.android") version "2.48" apply false
+    id("com.google.dagger.hilt.android") version "2.57.2" apply false
     //endregion Dagger - Hilt
     ...
 }
@@ -32,9 +32,9 @@ plugins {
 dependencies {
     ...
     //region Dagger - Hilt
-    implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-android-compiler:2.48")
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    implementation("com.google.dagger:hilt-android:2.57.2")
+    kapt("com.google.dagger:hilt-android-compiler:2.57.2")
+    implementation("androidx.hilt:hilt-navigation-compose:1.3.0")
     //endregion Dagger - Hilt
     ...
 }
