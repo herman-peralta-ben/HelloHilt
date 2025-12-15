@@ -5,5 +5,6 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose") version "2.2.21" apply false
     //region Dagger - Hilt
     id("com.google.dagger.hilt.android") version "2.57.2" apply false
+    id("com.android.library") version "8.9.1" apply false
     //endregion Dagger - Hilt
 }
