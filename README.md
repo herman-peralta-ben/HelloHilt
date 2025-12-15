@@ -1,6 +1,8 @@
 # HelloHilt
 Example App to use Dagger Hilt.
 
+💡See [mylibrary README](mylibrary/README.md) to see how to inject instances between Android modules.
+
 **Note: take a look on commits to see what changes on stages**
 
 This example works with Hilt version `2.57.2`.
